@@ -51,4 +51,6 @@ const app = (req, res) => {
 
 const server = http.createServer(app);
 
-server.listen(port, () => console.log(`Server is running on port:${port}`));
+server.listen(port, () =>
+  console.log(`Server is running at - http://127.0.0.1:${port}`)
+);
