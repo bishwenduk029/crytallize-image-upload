@@ -4,7 +4,7 @@ A simple node.js server to upload an image and return a URL to the consumer of A
 
 # Following are the steps to run the same
 
-- git clone <repo>
+- git clone https://github.com/bishwenduk029/crytallize-image-upload.git
 - cd crytallize-image-upload
 - npm install
 - npm run dev
